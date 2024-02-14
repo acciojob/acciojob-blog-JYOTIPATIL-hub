@@ -1,29 +1,122 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AccioJob Blog</title>
+  <style>
+    /* CSS code for styling the webpage */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .marquee {
+      width: 100%;
+      background-color: #3498db;
+      color: white;
+      padding: 10px;
+    }
+
+    .blog-link {
+      width: 100%;
+      background-color: #2ecc71;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .blog-link a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .articles {
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 20px;
+    }
+
+    .article {
+      width: 30%;
+      border: 1px solid #333;
+      padding: 10px;
+    }
+
+    .article img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .article h3 {
+      color: #333;
+      margin: 10px 0;
+    }
+
+    .article p {
+      color: #666;
+      margin: 10px 0;
+    }
+
+    .article a {
+      display: block;
+      text-decoration: none;
+      color: #3498db;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-   <h1 style="text-align:center;">Welcome to Accio Jobs!</h1>
-	<p style="color:blue;">Blog</p>
-   <img src="https://images.unsplash.com/flagged/photo-1556514767-5c270b96a005?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDI2fHxvcHRpbWl6YXRpb258ZW58MHx8fHwxNjcxMDAyOTIz&ixlib=rb-4.0.3&q=80&w=2000" style="height:200px;"> 
-	  <br>
-<p style="text-decoration:underline; color:blue "><b>Brute Force vs. Optimization</b></p>
-	<p style="text-decoration:underline; color:blue ">We can say that optimization is one step further than the brute-force method of problem solving…</p>
-	<img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDQxfHxjb21wZXRpdHZlJTIwcHJvZ3JhbW1pbmd8ZW58MHx8fHwxNjcwOTk4ODU0&ixlib=rb-4.0.3&q=80&w=2000" style="height:200px;">
-	<br>
-	<p style="text-decoration:underline; color:blue; ">DSA vs. Competitive Programming</p>
-	<p style="text-decoration:underline; color:blue; ">DSA or Competitive programming? What is better for you? Questions such as these often put you in a…</p>
+  <div class="container">
+    <!-- Marquee header with H1 heading -->
+    <div class="marquee">
+      <h1>Welcome to Accio Jobs!</h1>
+    </div>
 
-	<img src="https://images.unsplash.com/photo-1616469829581-73993eb86b02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDJ8fGxpbmtlZGlufGVufDB8fHx8MTY3MDQ5MTYxNw&ixlib=rb-4.0.3&q=80&w=2000" style="height:200px;">
-</br>
-	<p style="text-decoration:underline; color:blue; ">	Complete Guide on FlexBox</p>
-	<p style="text-decoration:underline; color:blue; ">As a job seeker, you may wonder how to make your LinkedIn profile stand out to recruiters. Your LinkedIn…</p>
+    <!-- Blog link with H1 heading -->
+    <div class="blog-link">
+      <h1><a href="^5^">AccioJob Blog</a></h1>
+    </div>
 
+    <!-- Articles section with images, links, and paragraphs -->
+    <div class="articles">
+      <!-- Article 1: Brute Force vs. Optimization -->
+      <div class="article">
+        <img src="^10^" alt="Brute Force vs. Optimization">
+        <h3><a href="^12^">Brute Force vs. Optimization</a></h3>
+        <p>We can say that optimization is one step further than the brute-force method of problem solving. However, that does not mean that optimization is always the best answer. In this article, we will discuss brute force, optimization, time complexity, and space complexity and compare these methods.</p>
+        <a href="^12^">Read More</a>
+      </div>
+
+      <!-- Article 2: DSA vs. Competitive Programming -->
+      <div class="article">
+        <img src="^1^" alt="DSA vs. Competitive Programming">
+        <h3><a href="^4^">DSA vs. Competitive Programming</a></h3>
+        <p>DSA or Competitive programming? This is a common dilemma faced by many students who want to pursue a career in the software industry. In this article, you will learn what DSA and competitive programming are, what their benefits and drawbacks are, and why you should use them.</p>
+        <a href="^4^">Read More</a>
+      </div>
+
+      <!-- Article 3: Complete Guide on FlexBox -->
+      <div class="article">
+        <img src="^14^" alt="Complete Guide on FlexBox">
+        <h3><a href="^16^">Complete Guide on FlexBox</a></h3>
+        <p>As a job seeker, you may wonder what FlexBox is and why it is important to learn. FlexBox is an acronym for Flexible Box Layout, which stands as a robust and versatile layout model, offering an effective method for organizing and distributing space within a container, even when the size of the items is unknown or dynamic.</p>
+        <a href="^16^">Read More</a>
+      </div>
+    </div>
+  </div>
 </body>
-
 </html>
